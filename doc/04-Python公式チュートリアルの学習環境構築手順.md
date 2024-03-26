@@ -1,3 +1,16 @@
+---
+pdf_options:
+  format: A4
+  margin: 10mm
+body_class: markdown-body
+css: |-
+  .markdown-body { font-size: 16px; }
+  .markdown-body img {
+    max-width: 600px;
+    max-height: 400px;
+  }
+---
+
 # Python公式チュートリアルの学習環境構築手順
 
 本手順書ではPython公式チュートリアルの学習環境構築手順について記述する。  
@@ -26,6 +39,8 @@ Pythonは演習の中でも使用している為、本学習を通して事前�
 5. ログインが成功するとGoogleColaboratoryの「ノートブックを開く」画面が表示される  
 ![GoogleColabノートブックを開く](media/Python公式チュートリアルの学習環境構築手順/Python公式チュートリアルの学習環境構築手順_05.png)  
 
+<div style="page-break-before:always"></div>
+
 ## ２ ノートブックの作成
 チュートリアルに記載されているプログラムを実行する為に、ノートブックを作成する。  
 
@@ -53,6 +68,8 @@ Pythonは演習の中でも使用している為、本学習を通して事前�
 5. プログラムの実行結果として、`2` という結果が表示されることを確認  
 ※公式チュートリアルではこの手順 3、4、5 を実施してプログラムの確認を行う  
 ![ノートブック（結果）](media/Python公式チュートリアルの学習環境構築手順/Python公式チュートリアルの学習環境構築手順_10.png)  
+
+<div style="page-break-before:always"></div>
 
 ## ３ Python公式チュートリアルの実施
 
@@ -83,6 +100,8 @@ Pythonは演習の中でも使用している為、本学習を通して事前�
     - 7.1.3. 文字列の手作業でのフォーマット
     - 7.1.4. 古い文字列書式設定方法
 
+<div style="page-break-before:always"></div>
+
 ### プログラム実行手順について  
 
 チュートリアルに記載されているプログラムの実行手順を以下に記載する。  
@@ -110,10 +129,10 @@ Pythonは演習の中でも使用している為、本学習を通して事前�
 
     ※プログラムを書き写す際、インデント(行頭のスペース)に全角スペースを用いたり、異なる数の半角スペースを入力するとエラーとなる為、正確に書き写すこと  
 
-    - 全角スペースを入力した場合
+    - 全角スペースを入力した場合  
     ![インデントエラー（全角スペース）](media/Python公式チュートリアルの学習環境構築手順/Python公式チュートリアルの学習環境構築手順_49.png)  
 
-    - 異なる数の半角スペースを入力した場合
+    - 異なる数の半角スペースを入力した場合  
     ![インデントエラー（異なる数の半角スペース）](media/Python公式チュートリアルの学習環境構築手順/Python公式チュートリアルの学習環境構築手順_50.png)  
 
 8. 実行ボタンをクリック  
@@ -148,6 +167,8 @@ GoogleColaboratoryで実行する場合は、特別な手順の実施が必要�
 
   ![モジュール保存2](media/Python公式チュートリアルの学習環境構築手順/Python公式チュートリアルの学習環境構築手順_24.png)  
 
+<div style="page-break-before:always"></div>
+
 #### モジュールのアップロード
 
 1. GoogleColaboratoryを開き、左側のファイルマークをクリック  
@@ -156,11 +177,15 @@ GoogleColaboratoryで実行する場合は、特別な手順の実施が必要�
 2. ファイル一覧の上のアップロードボタンをクリック  
 ![モジュールアップロード2](media/Python公式チュートリアルの学習環境構築手順/Python公式チュートリアルの学習環境構築手順_26.png)  
 
+<div style="page-break-before:always"></div>
+
 3. ファイルの選択画面が表示されるので、「[モジュールの作成](#モジュールの作成)」の手順5で作成したfibo.pyを選択して「開く」ボタンをクリック  
 ![モジュールアップロード3](media/Python公式チュートリアルの学習環境構築手順/Python公式チュートリアルの学習環境構築手順_27.png)  
 
 4. ファイル一覧にfibo.pyがアップロードされていることを確認  
 ![モジュールアップロード4](media/Python公式チュートリアルの学習環境構築手順/Python公式チュートリアルの学習環境構築手順_28.png)  
+
+<div style="page-break-before:always"></div>
 
 #### モジュールのインポート
 別ファイルで定義した関数を使えるようにする為に、モジュールのインポートが必要となる。  
@@ -176,6 +201,8 @@ GoogleColaboratoryで実行する場合は、特別な手順の実施が必要�
 
 4. モジュールのインポートに成功するとセルの左側にチェックマークがつく  
 ![モジュールインポート4](media/Python公式チュートリアルの学習環境構築手順/Python公式チュートリアルの学習環境構築手順_32.png)  
+
+<div style="page-break-before:always"></div>
 
 ### チュートリアル実行手順
 
@@ -225,5 +252,3 @@ GoogleColaboratoryで実行する場合は、特別な手順の実施が必要�
 
 - [Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)：Pythonのデータ解析ライブラリ
 - [scikit-learn](https://scikit-learn.org/stable/)：Pythonの機械学習ライブラリ
-
-

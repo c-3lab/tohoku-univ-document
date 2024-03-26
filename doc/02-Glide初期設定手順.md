@@ -1,11 +1,24 @@
+---
+pdf_options:
+  format: A4
+  margin: 10mm
+body_class: markdown-body
+css: |-
+  .markdown-body { font-size: 16px; }
+  .markdown-body img {
+    max-width: 600px;
+    max-height: 400px;
+  }
+---
+
 # Glide初期設定手順
 
 本手順書ではGlide初期設定手順について記述する。  
 Glideは演習の中でアプリケーションを作成する際に必要となる為、事前に準備をしておく。
 
 ## 注意事項
-<span style="color: red;">事前にGoogleアカウントの作成が必要</span> ([Googleアカウント作成手順](Googleアカウント作成手順.md))  
-<span style="color: red;">講義に使用するGoogleアカウントで既にGlideアカウントを持っている場合は本手順は不要</span>
+<span style="color: red;">事前にGoogleアカウントの作成が必要</span> ([Googleアカウント作成手順](01-Googleアカウント作成手順.md))  
+<span style="color: red;">講義に使用するGoogleアカウントで既にGlideアカウントを持っている場合は本手順は不要</span>  
 
 ## 目次
 [**１ アカウント作成**](#１-アカウント作成)  
@@ -26,7 +39,7 @@ Glideは演習の中でアプリケーションを作成する際に必要とな
 ![Sign Up](media/Glide初期設定手順/Glide初期設定手順_02.png)
 
 3. 「Sign up with Google」をクリック  
-**※[Googleアカウント作成手順](Googleアカウント作成手順.md)で作成済のGoogleアカウントを使ってアカウントを作成**  
+**※[Googleアカウント作成手順](01-Googleアカウント作成手順.md)で作成済のGoogleアカウントを使ってアカウントを作成**  
 ![Googleアカウントログイン](media/Glide初期設定手順/Glide初期設定手順_03.png)  
 
 4. Googleのログイン画面が表示されるので対象のアカウントを選択  
@@ -42,9 +55,13 @@ Glideは演習の中でアプリケーションを作成する際に必要とな
 7. GlideのGoogleアカウントへのアクセス許可画面が表示されるので「許可」をクリック  
 ![Googleアカウントへのアクセス許可](media/Glide初期設定手順/Glide初期設定手順_07.png)  
 
+<div style="page-break-before:always"></div>
+
 8. アカウントの作成完了  
 アカウントの作成が完了すると、初期設定画面が表示される  
 ![アカウント作成完了](media/Glide初期設定手順/Glide初期設定手順_08.png)  
+
+<div style="page-break-before:always"></div>
 
 ## ２ 初期設定
 
@@ -66,6 +83,7 @@ Glideは演習の中でアプリケーションを作成する際に必要とな
 
 3. 最後にあるチェックボックス(I agree to the Terms and Privacy Policy)にチェック  
 4. 「Let's Glide」をクリック  
+
 ![チーム情報入力/規約確認](media/Glide初期設定手順/Glide初期設定手順_10.png)  
 
 ### 初期設定完了
