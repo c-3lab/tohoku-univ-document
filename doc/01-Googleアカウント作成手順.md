@@ -1,3 +1,16 @@
+---
+pdf_options:
+  format: A4
+  margin: 10mm
+body_class: markdown-body
+css: |-
+  .markdown-body { font-size: 16px; }
+  .markdown-body img {
+    max-width: 600px;
+    max-height: 400px;
+  }
+---
+
 # Googleアカウント作成手順
 
 本手順書ではGoogleアカウント作成手順について記述する。  
@@ -27,6 +40,8 @@ Googleアカウントは後に実施するGlide初期設定、GoogleColab動作�
     - 名  
 ![姓名入力](media/Googleアカウント作成手順/Googleアカウント作成手順_03.png)
 
+<div style="page-break-before:always"></div>
+
 4. 以下の情報を入力して「次へ」をクリック  
     - 生年月日  
     - 性別  
@@ -39,6 +54,8 @@ Googleアカウントは後に実施するGlide初期設定、GoogleColab動作�
 Googleから発行されたGmailアドレスを選択する  
     該当のGmailアドレスを選択して「次へ」をクリック  
 ![Gmailアドレス選択](media/Googleアカウント作成手順/Googleアカウント作成手順_05_01.png)  
+
+<div style="page-break-before:always"></div>
 
 ### 自分でGmailアドレスを作成する
 
@@ -54,32 +71,38 @@ Googleから発行されたGmailアドレスを選択する
 3. 入力したメールアドレス宛に届いた確認コードを入力して「次へ」をクリック  
 ![メール確認コード入力](media/Googleアカウント作成手順/Googleアカウント作成手順_05_05.png)  
 
+<div style="page-break-before:always"></div>
+
 ## ３ パスワード及び電話番号の設定
 
 1. 任意のパスワードと確認欄に同じパスワードを入力して「次へ」をクリック  
-![パスワード設定](media/Googleアカウント作成手順/Googleアカウント作成手順_06.png)
+![パスワード設定](media/Googleアカウント作成手順/Googleアカウント作成手順_06.png)  
 
 2. 携帯の電話番号を入力して「次へ」をクリック  
 ※ロボットによる操作でないことを証明する為にSMSによる確認が必要  
-![電話番号入力](media/Googleアカウント作成手順/Googleアカウント作成手順_07.png)
+![電話番号入力](media/Googleアカウント作成手順/Googleアカウント作成手順_07.png)  
 
 3. 入力した電話番号宛に届いた確認コードを入力して「次へ」をクリック  
-![電話確認コード入力](media/Googleアカウント作成手順/Googleアカウント作成手順_08.png)
+![電話確認コード入力](media/Googleアカウント作成手順/Googleアカウント作成手順_08.png)  
 
 4. 再設定用のメールアドレスを追加したい場合、ここで入力して「次へ」をクリック  
 **※既存のメールアドレスを使用する以外の場合のみ**  
-※再設定用のメールアドレスの追加が不要の場合は「スキップ」ボタンをクリック
+※再設定用のメールアドレスの追加が不要の場合は「スキップ」ボタンをクリック  
 ![再設定用メールアドレス追加](media/Googleアカウント作成手順/Googleアカウント作成手順_13.png)  
 
-1. セキュリティ保護のために電話番号を追加したい場合、ここで入力して「次へ」をクリック  
+<div style="page-break-before:always"></div>
+
+5. セキュリティ保護のために電話番号を追加したい場合、ここで入力して「次へ」をクリック  
 **※既存のメールアドレスを使用する場合のみ**  
-※電話番号の追加が不要の場合は「スキップ」ボタンをクリック
+※電話番号の追加が不要の場合は「スキップ」ボタンをクリック  
 ![電話番号追加](media/Googleアカウント作成手順/Googleアカウント作成手順_12.png)  
 
 ## ４ 登録アカウント情報の確認
 
 登録したアカウント情報を確認して「次へ」をクリック  
 ![アカウント情報確認](media/Googleアカウント作成手順/Googleアカウント作成手順_09.png)  
+
+<div style="page-break-before:always"></div>
 
 ## ５ プライバシーと利用規約の同意
 プライバシーと利用規約を確認の上、最下部にある「同意する」をクリック  

@@ -1,3 +1,16 @@
+---
+pdf_options:
+  format: A4
+  margin: 10mm
+body_class: markdown-body
+css: |-
+  .markdown-body { font-size: 16px; }
+  .markdown-body img {
+    max-width: 600px;
+    max-height: 400px;
+  }
+---
+
 # GoogleColaboratory動作確認手順
 
 本手順書ではGoogleColaboratory動作確認手順について記述する。  
@@ -26,13 +39,17 @@ GoogleColaboratoryとはGoogle社が提供している、ブラウザから直�
 5. 右上のアイコンを選択し、「ドライブ」をクリック  
 ![Googleドライブ選択](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_05.png)  
 
+<div style="page-break-before:always"></div>
+
 6. Googleドライブが表示されるので「マイドライブ」をクリック  
-※後続の手順実施後にこの場所に演習用コンテンツがコピーされる
+※後続の手順実施後にこの場所に演習用コンテンツがコピーされる  
 ![マイドライブ選択](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_06.png)  
 
 ## ２ 演習用コンテンツのコピー  
 1. [演習1-1 のコンテンツ](https://colab.research.google.com/drive/16Ze3yhw9cdOP_wLf_GWrOba7AlwznmlZ?usp=sharing)に移動  
 ![演習1-1 のコンテンツ](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_07.png)  
+
+<div style="page-break-before:always"></div>
 
 2. 「ドライブにコピー」をクリックし、自分のGoogleドライブにコピー  
     ※東北大学寄附講座_演習1_1.ipynb のコピー というファイルが生成される  
@@ -40,6 +57,8 @@ GoogleColaboratoryとはGoogle社が提供している、ブラウザから直�
 
 3. コピーが完了すると「東北大学寄附講座_演習1_1.ipynb のコピー」が開かれる  
 ![東北大学寄附講座_演習1_1.ipynb のコピー](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_09.png)  
+
+<div style="page-break-before:always"></div>
 
 4. Googleドライブのマイドライブ上に「Colab Notebooks」フォルダが作成されていることを確認  
 ![Colab Notebooksフォルダの確認](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_10.png)  
@@ -73,6 +92,8 @@ GoogleColaboratoryとはGoogle社が提供している、ブラウザから直�
 13. 4で作成された「Colab Notebooks」内に「東北大学寄附講座_演習1_3.ipynb のコピー」が存在することを確認  
 ![コピーファイルの確認（演習1-3）](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_19.png)  
 
+<div style="page-break-before:always"></div>
+
 14. 4で作成された「Colab Notebooks」内にコピーした3ファイルが存在することを確認  
     **※ここから使用するファイルは必ずコピーした3ファイルを使用すること**  
 ![コピーファイルの確認](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_20.png)  
@@ -84,8 +105,10 @@ GoogleColaboratoryとはGoogle社が提供している、ブラウザから直�
 ※東北大学寄附講座_演習1_1.ipynbが開かれていない場合は、Googleドライブのマイドライブ内、「Colab Notebooks」フォルダから開く  
 ![動作確認_演習1_1](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_30.png)  
 
+<div style="page-break-before:always"></div>
+
 **(画面構成)**  
-GoogleColaboratoryの画面構成を以下に記載する
+GoogleColaboratoryの画面構成を以下に記載する  
 ![画面構成](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_31.png)  
 ①プログラム記載セル（グレーで塗りつぶされたセル）  
 ②プログラム実行ボタン  
@@ -108,6 +131,8 @@ GoogleColaboratoryの画面構成を以下に記載する
 プログラムが記載されたセルの下に、実行結果が表示されるので確認  
 ![プログラム実行結果_演習1_1](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_33.png)  
 
+<div style="page-break-before:always"></div>
+
 4. 演習1-1を進める  
 手順 2、3 と同様の手順にて、プログラム実行までの説明を呼んだ上で、プログラムの動作確認を行う  
 ![演習1_1](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_34.png)  
@@ -117,6 +142,8 @@ GoogleColaboratoryの画面構成を以下に記載する
 1. 東北大学寄附講座_演習1_2.ipynb のコピー を開く  
 ※東北大学寄附講座_演習1_2.ipynbが開かれていない場合はGoogleドライブのマイドライブ内、「Colab Notebooks」フォルダから開く  
 ![動作確認_演習1_2](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_35.png)  
+
+<div style="page-break-before:always"></div>
 
 2. プログラム実行  
 プログラムが記載されているセルを確認し、左側のプログラム実行ボタンをクリック  
@@ -131,6 +158,8 @@ GoogleColaboratoryの画面構成を以下に記載する
     3. 「接続済」 → プログラム実行準備完了  
     4. 「RAMディスク」 → プログラム実行開始  
 
+<div style="page-break-before:always"></div>
+
 3. 実行結果の確認  
 プログラムが記載されたセルの下に、実行結果が表示されるので確認  
 ![プログラム実行結果_演習1_2](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_37.png)  
@@ -138,6 +167,8 @@ GoogleColaboratoryの画面構成を以下に記載する
 4. 演習1-2を進める  
 手順 2、3 と同様の手順にて、プログラム実行までの説明を呼んだ上で、プログラムの動作確認を行う  
 ![演習1_2](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_38.png)  
+
+<div style="page-break-before:always"></div>
 
 #### 補足
 「SVMを用いた分類器の学習」セクションにて正答率は若干低下しているとの記載があるがテスト用データのパターンによっては正答率が高くなる場合もある  
@@ -148,6 +179,8 @@ GoogleColaboratoryの画面構成を以下に記載する
 1. 東北大学寄附講座_演習1_3.ipynb のコピー を開く  
 ※東北大学寄附講座_演習1_3.ipynbが開かれていない場合はGoogleドライブのマイドライブ内、「Colab Notebooks」フォルダから開く  
 ![動作確認_演習1_3](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_40.png)  
+
+<div style="page-break-before:always"></div>
 
 2. プログラム実行  
 プログラムが記載されているセルを確認し、左側のプログラム実行ボタンをクリック  
@@ -162,6 +195,8 @@ GoogleColaboratoryの画面構成を以下に記載する
     3. 「接続済」 → プログラム実行準備完了  
     4. 「RAMディスク」 → プログラム実行開始  
 
+<div style="page-break-before:always"></div>
+
 3. 実行結果の確認  
 プログラムが記載されたセルの下に、実行結果が表示されるので確認  
 ![プログラム実行結果_演習1_3](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_42.png)  
@@ -169,6 +204,8 @@ GoogleColaboratoryの画面構成を以下に記載する
 4. OpenAIのAPIキーを設定  
 「OpenAIのAPIキーを環境変数としてセット」のセクションで個人のAPIキーを設定する  
 ![APIキーの設定](media/GoogleColaboratory動作確認手順/GoogleColaboratory動作確認手順_43.png)  
+
+<div style="page-break-before:always"></div>
 
 5. 演習1-3を進める  
 手順 2、3 と同様の手順にて、プログラム実行までの説明を呼んだ上で、プログラムの動作確認を行う  

@@ -1,3 +1,16 @@
+---
+pdf_options:
+  format: A4
+  margin: 10mm
+body_class: markdown-body
+css: |-
+  .markdown-body { font-size: 16px; }
+  .markdown-body img {
+    max-width: 600px;
+    max-height: 400px;
+  }
+---
+
 # Glideサンプルアプリの作成手順
 
 本手順書では、Glideを使用したサンプルアプリの作成手順を記載する。  
@@ -20,8 +33,10 @@
 ![仙台市指定避難所ダウンロード](media/Glideサンプルアプリの作成手順/Glideサンプルアプリの作成手順_02.png)  
 
 3. 「ダウンロード」ボタンをクリック  
-※指定避難所のCSVファイルがダウンロードされる
+※指定避難所のCSVファイルがダウンロードされる  
 ![仙台市指定避難所ダウンロード](media/Glideサンプルアプリの作成手順/Glideサンプルアプリの作成手順_03.png)  
+
+<div style="page-break-before:always"></div>
 
 ## ２ Glideで読み込める形式に変換  
 
@@ -41,7 +56,7 @@
 5. 右上のアイコンを選択し、「スプレッドシート」をクリック  
 ![スプレッドシート選択](media/Glideサンプルアプリの作成手順/Glideサンプルアプリの作成手順_08.png)  
 
-6. 「スプレッドシート」画面が表示されるので、右側のフォルダアイコンをクリック
+6. 「スプレッドシート」画面が表示されるので、右側のフォルダアイコンをクリック  
 ![ファイル選択ツール](media/Glideサンプルアプリの作成手順/Glideサンプルアプリの作成手順_09.png)  
 
 7. 「ファイルを開く」画面が表示されるので、「アップロード」タブをクリック  
@@ -103,6 +118,8 @@
 8. 変換した「仙台市指定避難所」を読み込む為に、「Start with data」内の「Google Sheets」を選択して「Continue」をクリック  
 ![ファイルインポート1](media/Glideサンプルアプリの作成手順/Glideサンプルアプリの作成手順_26.png)  
 
+<div style="page-break-before:always"></div>
+
 9. データの使用方法を聞かれるので、「Import Google Sheet once」を選択して「Continue」をクリック  
 ![ファイルインポート2](media/Glideサンプルアプリの作成手順/Glideサンプルアプリの作成手順_27.png)  
 
@@ -115,6 +132,8 @@
 ## ４ 地図上に指定避難所を表示する  
 ※手順書内の画像に表示されている内容と異なる画面が表示されてしまった場合は、画面上部の「Layout」をクリックし、画面左側の「COMPONENTS」にある「Map」をクリックすることで戻ることが可能  
 ![アプリケーション作成1](media/Glideサンプルアプリの作成手順/Glideサンプルアプリの作成手順_56.png)  
+
+<div style="page-break-before:always"></div>
 
 1. 画面左側の「NAVIGATION」にアプリケーションのページ一覧が表示される  
 本手順では「仙台市指定避難所」ページのみを利用する為、「Users」ページを右クリック後、Deleteを選択して削除  
@@ -135,6 +154,8 @@
 
 6. ピンをタップした際に避難場所の名称を表示させる為、右メニューTitleの3点リーダー(縦)をクリックし「名称」を設定する  
 ![アプリケーション設定6](media/Glideサンプルアプリの作成手順/Glideサンプルアプリの作成手順_52.png)  
+
+<div style="page-break-before:always"></div>
 
 7. ピンをタップした際に避難場所の住所を表示させる為、右メニューDescriptionの3点リーダー(縦)をクリックし「住所」を設定する  
 ![アプリケーション設定7](media/Glideサンプルアプリの作成手順/Glideサンプルアプリの作成手順_53.png)  
@@ -162,11 +183,15 @@
 3. Publishが成功すると接続用のQRコード、URLが表示される  
 ![アプリケーションの公開3](media/Glideサンプルアプリの作成手順/Glideサンプルアプリの作成手順_39.png)  
 
+<div style="page-break-before:always"></div>
+
 4. サンプルアプリでは、アプリへアクセスする際の認証をなしとする為、「Privacy」 タブをクリック  
 ![アプリケーションの公開4](media/Glideサンプルアプリの作成手順/Glideサンプルアプリの作成手順_40.png)  
 
 5. 公開範囲を「Public」に変更し、SIGN-INを「No sign-in」に設定  
 ![アプリケーションの公開5](media/Glideサンプルアプリの作成手順/Glideサンプルアプリの作成手順_41.png)  
+
+<div style="page-break-before:always"></div>
 
 6. スマートフォンでQRコードを読み込むと、作成したアプリケーションが表示される  
 ※PCから手順3で表示されたURLを入力しても確認可能（以下はスマートフォンからアクセスした場合）  
@@ -174,6 +199,8 @@
 
 7. アプリケーション公開の確認完了後、公開範囲をPrivateに戻しておく  
 ![アプリケーションの公開7](media/Glideサンプルアプリの作成手順/Glideサンプルアプリの作成手順_43.png)  
+
+<div style="page-break-before:always"></div>
 
 ## ６ アプリケーションの削除方法
 
